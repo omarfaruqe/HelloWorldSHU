@@ -8,12 +8,12 @@ public class HelloWorld {
         int resultOfDivision = helloWorld.division(6, 7);
 
         System.out.println("Sum Result: " + resultOfSum + 
-            "Div Result: " + resultOfDivision);
+            "\nDiv Result: " + resultOfDivision);
     }
     public int sumTwoNumbers(int firstNumber, int secondNumber){
         int result;
         result = firstNumber + secondNumber;
-        retun result;
+        return result;
     }
     public int division(int firstNumber, int secondNumber){
         return firstNumber - secondNumber;
